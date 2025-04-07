@@ -1,0 +1,156 @@
+<html>
+  <head>
+    <title>Portifólio</title>
+    
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", Sans-Serif;
+      }
+      
+      body {
+        background: linear-gradient(#194a98, #0e2a56);
+      }
+      
+      nav {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 25px;
+        background-color: #85daff;
+      }
+      
+      .botoesnav {
+        text-decoration: none;
+        color: White;
+        font-size: 17px;
+        background-color: #12356c;
+        border-radius: 12%;
+        padding: 15px;
+        font-weight: bold;
+      }
+      
+      .botoesnav:hover {
+        background-color: rgb(5, 182, 73);
+        border-radius: 22%;
+        transition: 0.3s;
+      }
+      
+      img {
+        border-radius: 7%;
+        position: relative;
+        right: 87px;
+      }
+      
+      h1 {
+        font-size: 50px;
+        color: #85daff;
+      }
+
+      .eu {
+        color: #f5f5f5;
+        font-size: 24px;
+      }
+      
+      .geral {
+        display: flex;
+        gap: 200px;
+        padding: 30px;
+      }
+      
+      .texto {
+        padding: 40px;
+      }
+      
+      .imagem {
+        padding: 40px;
+      }
+
+      /* Novos estilos para a seção de contatos */
+      .contatos {
+        display: flex;
+        justify-content: center;
+        gap: 100px; /* Ajuste o espaço entre as caixas */
+        padding: 70px;
+        margin-top: 50px;
+      }
+
+      .contato-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 120px;
+        height: 120px;
+        border: 2px solid white;
+        border-radius: 30%;
+        background-color: #12356c;
+        color: white;
+        font-size: 24px;
+        cursor: pointer;
+        transition: transform 0.3s;
+      }
+
+      .contato-box:hover {
+        transform: scale(1.1);
+        background-color: rgb(207, 206, 230);
+      }
+
+      .contato-box img {
+        width: 70px; /* Ajuste o tamanho da imagem */
+        height: 70px; /* Ajuste o tamanho da imagem */
+        object-fit: contain; /* Garante que a imagem se ajuste dentro da caixa */ 
+        position: relative;
+        right: auto;
+      }
+      
+    </style>
+    
+  </head>
+  
+  <body>
+    <header>
+      <section class="navegacao">
+        <nav>
+          <a class="botoesnav" href="#">Início</a>
+          <a class="botoesnav" href="#">Sobre</a>
+          <a class="botoesnav" href="#">Projetos</a>
+          <a class="botoesnav" href="#">Contato</a>
+        </nav>
+      </section>
+    </header>
+    
+    <div class="geral">
+      <div class="texto">
+        <section>
+          <h1>Desenvolvedor Front-end</h1>
+          <br> <br>
+          <p class="eu">Olá! Me chamo Matheus Machado e sou estudante de Ciência da Computação, apaixonado por tecnologia, lógica e desenvolvimento web. Tenho conhecimentos em HTML e CSS e estou sempre em busca de aprimorar minhas habilidades em front-end e outras áreas da programação. Tenho facilidade em aprender novas tecnologias, raciocínio lógico apurado e uma forte base em matemática e algoritmos.</p>
+        </section>
+      </div> <!--FECHAMENTO TEXTO-->
+    
+      <div class="imagem">
+        <img src="Matheus.jpg" alt="Minha foto de perfil" width="280px">
+      </div> <!--FECHAMENTO IMAGEM-->
+
+    </div> <!--FECHAMENTO GERAL-->
+    <!-- Seção de contatos -->
+    <section class="contatos">
+      <div class="contato-box">
+        <a href="https://www.instagram.com/pv.matheusm" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+        </a>
+      </div>
+      <div class="contato-box">
+        <a href="https://wa.me/5571997144718" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        </a>
+      </div>
+      <div class="contato-box">
+        <a href="https://www.linkedin.com/in/matheus-machado-b09507350" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg" alt="LinkedIn">
+        </a>
+      </div>
+    </section>
+    
+  </body>
+</html>
